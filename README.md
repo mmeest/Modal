@@ -21,6 +21,6 @@
 | Fixed size modal window | | ✓ |
 | User can resize height | | ✓ |
 | Vertical scrollbar on dialog window | | ✓ | 
-| REST API and JSON protocol for data transfer for controls | ✓ | |
+| REST API and JSON protocol for data transfer for controls | | ✓ |
 | Save data with Save button | ✓ | |
 | Automated tests | ✓ | |
