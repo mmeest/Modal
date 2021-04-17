@@ -15,7 +15,7 @@
 | + button implementation(add options) | | ✓ |
 | - button implementation(remove option) | | ✓ |
 | Only one row on inizialisation | | ✓ |
-| Combo(Amount) - Combo(Numbers compare) - Numeric field | ✓ | |
+| Combo(Amount) - Combo(Numbers compare) - Numeric field | | ✓ |
 | Combo(Title) - Combo(Text compare) - Text field | | ✓ |
 | Combo(Date) - Combo(Date compare) - Date field | | ✓ |
 | Fixed size modal window | | ✓ |
