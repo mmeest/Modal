@@ -10,6 +10,7 @@
 - [Apply Save Cancel](#apply-save-cancel)
 - [Database](#database)
 - [Servers](#servers)
+- [Automated Tests](#automated-tests)
 - [Checklist](#checklist)
 
 <hr>
@@ -72,6 +73,13 @@ MySQL database - created in *phpMyAdmin* \
 ### Servers
 MySQL - Port 3307 \
 Tomcat - Port 8080
+
+<hr>
+
+### Automated Tests
+* Selenium WebDriver(v. 3.141.59) is used for Automated tests - https://www.selenium.dev/downloads/
+
+*Chromedriver - https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip
 
 <hr>
 
