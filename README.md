@@ -26,6 +26,8 @@ XAMPP v3.2.4 - https://www.apachefriends.org/index.html
 * This button will open the modal window
 * Current button is only clickable when modal window not displayed
 
+Index page is located 'src/main/webapp/index.html'
+
 <hr>
 
 ### Modal window
