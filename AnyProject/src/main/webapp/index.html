@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal dialog</title>
+    <link href="style/style.css" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script/resize.js"></script>
+    <script defer src="script/script.js"></script>
+    <script type="text/javascript" src="script/data.js"></script>
+</head>
+<body>
+    <div id="overlay"></div>
+    <div class="center">
+        <button data-modal-target="#modal">Show Dialog</button>
+    </div>
+
+                                            <!-- Modal window -->
+    <div class="modal" id="modal">
+        <div class="modal-header">
+            <div>
+                <div class="modal-title">Filter</div>
+            </div>
+            <div>
+                <button>?</button>
+                <button data-close-button class="close-button" type="reset">&times;</button>
+            </div>
+        </div>
+        <div class="body-container">
+            <div class="modal-body" id="modal-body">
+                <form action="reg.jsp" method="post">
+                    <p>
+                        <label class="label bold">Filter name</label>
+                        <input class="first" type="text" placeholder="" name="filterName" required>
+                    </p>
+                    <p>
+                        <label class="label bold">Filter options</label>
+                        <input id="add" type="button" onclick="addOptions()" value="Add filter options +">
+                        <ul class="first">
+                            <li id="row1">
+                                <select id="field1" name="field1"></select>
+                                <select id="field2" name="field2"></select>
+                                <input type="text" placeholder="Text" name="textValue">
+                                <input type="button" onclick="hideFilter('row1')" value="-">
+                            </li>
+                            <li id="row2" class="hidden">
+                                <select id="field3" name="field3"></select>
+                                <select id="field4" name="field4"></select>
+                                <input type="number" name="numValue" pattern="[0-9]+">
+                                <input type="button" onclick="hideFilter('row2')" value="-">
+                            </li>
+                            <li id="row3" class="hidden">
+                                <select id="field5" name="field5"></select>
+                                <select id="field6" name="field6"></select>
+                                <!-- <input type="date" id="start" name="trip-start"> -->
+                                <input type="date" id="start" name="dateValue">
+                                <input type="button" onclick="hideFilter('row3')" value="-">
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <label class="label bold">Entry should</label>
+                        <input type="radio" id="all" name="selection" value="all" checked>
+                        <label for="all">Match all</label><br>
+                        <input type="radio" id="one" name="selection" value="one">
+                        <label for="one">Match atleast one</label><br>
+                        <input type="radio" id="none" name="selection" value="none">
+                        <label for="none">Should not match</label> 
+                    </p>
+                    <p>
+                        <div class="btns">
+                            <button type="button">Apply filter</button>
+                            <input type="submit" value="Save filter"></input>
+                            <button data-close-button="" type="reset">Cancel</button>
+                        </div>
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+    <div id="overlay"></div>
+</body>
+</html>

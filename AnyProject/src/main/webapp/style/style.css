@@ -1,0 +1,110 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #515556;
+}
+p{
+    display: flex;
+    margin-bottom: -7px;
+}
+.center {
+    margin-top: 10vh;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.first{
+    margin-left: 15%;
+}
+li{
+    list-style-type: none;
+}
+label, select, input[type=date], input[type=text], input[type=number]{
+    width: 20%;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+input[type=radio]{
+    margin-left: -2%;
+}
+input[type=text]:focus {
+    border-color:rgb(163, 154, 154);
+}
+.btns{
+    text-align: center;
+}
+button, input[type=button], input[type=submit]{
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Modal window */
+.body-container{
+    padding-right: 10px;
+    height: 100%;
+}
+.modal{
+    position: fixed;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+}
+.modal-body{
+    padding-left: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 50px;
+    padding-right: -215px;
+    max-height: fit-content;
+    overflow-y: inherit;
+    overflow-x: hidden;
+}
+.modal.active{
+    transform: translate(-50%, -50%) scale(1);
+}
+.modal-header, .modal-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #515556;
+    color: white;
+    padding: 15px;
+}
+.modal-title{
+    color: white;
+    font-weight: bold;
+}
+.modal-header .close-button{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 1.24rem;
+    font-weight: bold;
+}
+
+#overlay{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;   /* to enable click events when overlay is not active */
+}
+#overlay.active{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.hidden, .hiddenBtn{
+    display: none;
+}

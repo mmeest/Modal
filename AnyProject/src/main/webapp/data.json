@@ -1,0 +1,41 @@
+{
+    "field1": {
+        "fieldName": "field1",
+        "title": "Title",
+        "author": "Author",
+        "owner": "Owner",
+        "contents": "Contents"
+    },
+    "field2":{
+        "fieldName": "field2",
+        "starts": "Starts with",
+        "includes": "Includes",
+        "ends": "Ends"
+    },
+    "field3":{
+        "fieldName": "field3",
+        "size": "Size",
+        "pages": "Pages",
+        "rows": "Rows"
+    },
+    "field4":{
+        "fieldName": "field4",
+        "less": "Less than",
+        "exactly": "Exactly",
+        "more": "More than"
+    },
+    "field5":{
+        "fieldName": "field5",
+        "creation": "Date of creation",
+        "approval": "Date of approval",
+        "publication": "Date of pubclication",
+        "expiration": "Date of expiration"
+    },
+    
+    "field6":{
+        "fieldName": "field6",
+        "on": "On",
+        "before": "Before",
+        "after": "After"
+    }
+}
