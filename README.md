@@ -1,4 +1,13 @@
-# Modal
+<p align="center"><img src="pic/screenshot.gif" width="400px"></p>
+
+<h1 align="center">
+    <strong>Modal</strong>
+</h1>
+<h3 align="center">
+    <p>Modal Form wit db connection in Java</p>
+</h3>
+
+<p align="center"><img src="pic/screenshot.gif" width="400px"></p>
 
 <hr>
 
@@ -11,6 +20,7 @@
 - [Database](#database)
 - [Servers](#servers)
 - [Automated Tests](#automated-tests)
+- [Techiniques Used](#techniques-used)
 - [Checklist](#checklist)
 
 <hr>
@@ -23,6 +33,9 @@ XAMPP v3.2.4 - https://www.apachefriends.org/index.html
 <hr>
 
 ### Main page
+
+Page on local Tomcat server:  http://localhost:8080/AnyProject/index.html
+
 * On main page there is only one button - 'Show Dialog'
 * This button will open the modal window
 * Current button is only clickable when modal window not displayed
@@ -63,10 +76,14 @@ There are currenyl 3 main buttons on modal
 
 <hr>
 
+<p align="center"><img src="pic/db.png" width="400px"></p>
+
 ### Database
 MySQL database - created in *phpMyAdmin* \
 * Database name: modal
 * Table name: filters
+
+*Database 'modal.sql' inclduded in 'db' folder
 
 <hr>
 
@@ -77,9 +94,33 @@ Tomcat - Port 8080
 <hr>
 
 ### Automated Tests
+* Automated tests are in 'LocalTest.java'
+
 * Selenium WebDriver(v. 3.141.59) is used for Automated tests - https://www.selenium.dev/downloads/
+* Tests are done with Chrome browser and Chromedriver
+* c:/browserdrivers/ is my path for local drivers
+* So in unit tests driver setup is as follows
+```
+System.setProperty("webdriver.chrome.driver","C:\\browserdrivers\\chromedriver.exe");  
+```
 
 *Chromedriver - https://chromedriver.storage.googleapis.com/90.0.4430.24/chromedriver_win32.zip
+*Crhomedriver included in 'chromedriver' folder
+
+<hr>
+
+### Techniques Used
+Laguages, frameworks, servers etc.
+
+* HTML
+* CSS
+* JavaScript
+* MySQL
+* Java
+* JSP - https://www.tutorialspoint.com/jsp/index.htm
+* Tomcat - http://tomcat.apache.org/
+* JUnit - https://junit.org/junit5/
+* Selenium - https://www.selenium.dev/
 
 <hr>
 
