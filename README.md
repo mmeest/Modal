@@ -4,7 +4,7 @@
     <strong>Modal</strong>
 </h1>
 <h3 align="center">
-    <p>Modal Form wit db connection in Java</p>
+    <p>Modal Form with db connection in Java</p>
 </h3>
 
 <hr>
