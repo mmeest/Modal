@@ -147,6 +147,6 @@ Laguages, frameworks, servers etc.
 | Vertical scrollbar on dialog window | | ✓ | 
 | REST API and JSON protocol for data transfer for controls | | ✓ |
 | Save data with Save button | | ✓ |
-| Automated tests | ✓ | |
+| Automated tests | | ✓ |
 
 # HAPPY CODING !!! :)
