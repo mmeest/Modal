@@ -1,4 +1,4 @@
-<p align="center"><img src="pic/screenshot.gif" width="400px"></p>
+<p align="center"><img src="pic/screenshot.gif" width="500px"></p>
 
 <h1 align="center">
     <strong>Modal</strong>
@@ -6,8 +6,6 @@
 <h3 align="center">
     <p>Modal Form wit db connection in Java</p>
 </h3>
-
-<p align="center"><img src="pic/screenshot.gif" width="400px"></p>
 
 <hr>
 
@@ -76,7 +74,7 @@ There are currenyl 3 main buttons on modal
 
 <hr>
 
-<p align="center"><img src="pic/db.png" width="400px"></p>
+<p align="center"><img src="pic/db.png" width="500px"></p>
 
 ### Database
 MySQL database - created in *phpMyAdmin* \
@@ -115,6 +113,8 @@ Laguages, frameworks, servers etc.
 * HTML
 * CSS
 * JavaScript
+* REST
+* JSON
 * MySQL
 * Java
 * JSP - https://www.tutorialspoint.com/jsp/index.htm
