@@ -55,6 +55,8 @@ Page on local Tomcat server:  http://localhost:8080/AnyProject/index.html
 <hr>
 
 ### Filter rows
+* Dropdown selections are populated from 'data.json'
+
 1. Combo - text
 2. Combo - numeric
 3. Combo - date
