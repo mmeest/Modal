@@ -151,4 +151,4 @@ Laguages, frameworks, servers etc.
 | Save data with Save button | | ✓ |
 | Automated tests | | ✓ |
 
-# HAPPY CODING !!! :)
+# `HAPPY CODING !!! :)`
